@@ -20,5 +20,6 @@ from contactslist import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('contactslist/', views.index),
+    path('display/',views.display),
     
 ]
